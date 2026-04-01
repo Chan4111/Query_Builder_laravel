@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Chandan Thakur",
+        "email":"chandan@gmail.com",
+        "age":54,
+        "city":"delhi"
+    },
+    {
+        "name": "Prashant",
+        "email":"prashant@gmail.com",
+        "age":34,
+        "city":"Lucknow"
+    },
+    {
+        "name": "Stayam",
+        "email":"satyam@gmail.com",
+        "age":20,
+        "city":"Bihar"
+    },
+    {
+        "name": "Rahul Thakur",
+        "email":"rahul@gmail.com",
+        "age":74,
+        "city":"Patna"
+    },
+    {
+        "name": "Mohit Thakur",
+        "email":"mohit@gmail.com",
+        "age":64,
+        "city":"Patna"
+    },
+    {
+        "name": "Pappu Thakur",
+        "email":"pappu@gmail.com",
+        "age":24,
+        "city":"Mumbau"
+    },
+    {
+        "name": "Purushootam Thakur",
+        "email":"puru@gmail.com",
+        "age":24,
+        "city":"Patna"
+    }
+]
