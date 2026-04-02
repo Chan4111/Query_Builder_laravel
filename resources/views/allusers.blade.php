@@ -10,10 +10,11 @@
 </head>
 
 <body>
-    <div class="coontainer">
+    <div class="container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-8">
                 <h1>All Users Lists</h1>
+                <a href="/newUser" class="btn btn-success btn-sm mb=3">Add New</a><br>
                 <table class="table table-bordered table-striped">
                 <tr>
                     <th>Id</th>
@@ -23,6 +24,7 @@
                     <th>City</th>
                     <th>View</th>
                     <th>Delete</th>
+                    <th>Update</th>
                 </tr>
                     @foreach ($data as $id => $user)
                         <tr>
@@ -33,6 +35,7 @@
                             <td>{{ $user->city }}</td>
                             <td><a href="{{ route('view.user',$user->id) }}" class="btn btn-primary btn-sm">View</a></td>
                             <td><a href="{{ route('delete.user',$user->id) }}" class="btn btn-danger btn-sm">Delete</a></td>
+                            <td><a href="{{ route('update.page',$user->id) }}" class="btn btn-warning btn-sm">Update</a></td>
                         </tr>
                     @endforeach
                 </table>
