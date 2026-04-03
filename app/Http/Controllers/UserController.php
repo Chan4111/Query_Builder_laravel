@@ -10,7 +10,11 @@ class UserController extends Controller
   ///All Users
   public function showUsers()
   {
-    $user = DB::table('students')->get();
+    $user = DB::table('students')
+                //  ->where('city','patna')
+                  //->orderBy('id')
+                  ->Paginate(8);
+                 
 
     return view("allusers", ['data' => $user]);
 

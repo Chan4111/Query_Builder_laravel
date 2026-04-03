@@ -39,6 +39,13 @@
                         </tr>
                     @endforeach
                 </table>
+                <div class="mt-5">
+                    {{ $data->links() }}
+                </div>
+                <div>
+                    Total Students:{{ $data -> total() }} <br>
+                    Current Page : {{ $data -> currentPage() }}
+                </div>
             </div>
         </div>
     </div>
